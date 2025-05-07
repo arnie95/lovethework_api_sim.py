@@ -1,7 +1,7 @@
 # lovethework_api_sim.py
 from flask import Flask, jsonify
 
-app = Flask(__name__)
+app = Flask(__name__) 
 
 @app.route("/lovethework", methods=["GET"])
 def get_ltw():
